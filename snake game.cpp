@@ -9,6 +9,9 @@ enum eDirection {STOP=0, LEFT, RIGHT, UP, DOWN};
 eDirection dir;
 int tailX[100],tailY[100];
 int nTail;
+/*
+    Setup function is for building the wall
+*/
 void Setup()
 {
     gameover=false;
