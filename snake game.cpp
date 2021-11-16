@@ -54,7 +54,7 @@ void Draw(){
     }
     for(int i=0;i<width+1;i++)
     cout<<"#";
-    cout<<endl<<"Score:"<<score<<endl;
+    cout<<endl<<"Total_Score:"<<score<<endl;
     
 }
 void Input()
