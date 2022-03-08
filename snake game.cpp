@@ -22,6 +22,9 @@ void Setup()
     fy=rand()%height;
     score=0;
 }
+/*
+Draw function is for drawing the border for the game
+*/
 void Draw(){
     system("cls");
     for(int i=0;i<width+1;i++)
